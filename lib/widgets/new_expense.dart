@@ -224,6 +224,10 @@ class _NewExpenseState extends State<NewExpense> {
                       },
                       child: const Text('Cencel'),
                     ),
+                    ElevatedButton(
+                      onPressed: _submitExpendeDate,
+                      child: const Text('save expense'),
+                    )
                   ],
                 )
               else
